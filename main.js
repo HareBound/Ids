@@ -14,9 +14,9 @@ function verificarValorNoArquivo() {
       const existeValor = fileContent.includes(valorDesejado);
 
       if (existeValor) {
-        console.log(`O valor '${valorDesejado}' existe no arquivo.`);
+        window.alert(`O valor '${valorDesejado}' existe no arquivo.`);
       } else {
-        console.log(`O valor '${valorDesejado}' não foi encontrado no arquivo.`);
+        window.alert(`O valor '${valorDesejado}' não foi encontrado no arquivo.`);
       }
     }
   };
