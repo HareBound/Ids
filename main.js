@@ -5,7 +5,7 @@ const valorDesejado = randomId;
 function verificarValorNoArquivo() {
   const xhr = new XMLHttpRequest();
 
-  xhr.open('GET', '/ids/ids.txt', true);
+  xhr.open('GET', 'ids.txt', true);
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
